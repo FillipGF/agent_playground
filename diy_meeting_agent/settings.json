@@ -1,0 +1,15 @@
+{
+    "mic_device_id": 1,
+    "loopback_device_id": 17,
+    "sample_rate": 16000,
+    "wake_word": "лама",
+    "language": "ru",
+    "user_name": "Пользователь",
+    "ollama_url": "http://localhost:11434",
+    "ollama_model": "qwen2.5:7b",
+    "ollama_embed_model": "nomic-embed-text",
+    "tts_voice": "ru-RU-DmitryNeural",
+    "tts_enabled": true,
+    "auto_answer_enabled": false,
+    "whisper_model": "base"
+}

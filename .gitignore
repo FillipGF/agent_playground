@@ -1,0 +1,47 @@
+# Секреты
+config.json
+service_account.json
+
+# Отладочные инструменты и дампы
+debug_tools/
+
+# Готовые HTML файлы (содержат секретные данные по запросу пользователя)
+*.html
+*/**/*.html
+
+# Системные папки и кэши
+brain/
+.agents/
+.vscode/
+.obsidian/
+__pycache__/
+.codegraph/
+
+# Архивы
+*.rar
+*.zip
+*.tar.gz
+
+# Входные и выходные данные (отчеты)
+fleet/inputs/
+fleet/outputs/
+*.xlsx
+*.xls
+*.csv
+*.pptx
+*.ppt
+
+# Окружение и кэш парсеров
+**/.chrome_profile/
+**/.playwright/
+.venv/
+venv/
+env/
+
+# Встречи и база знаний агента встреч
+diy_meeting_agent/meetings_history/
+diy_meeting_agent/knowledge_base/
+*.pdf
+
+
+
